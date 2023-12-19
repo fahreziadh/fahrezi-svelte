@@ -35,7 +35,7 @@
 				target="_blank"
 				href={link.url}
 				class="hover:underline group font-bold text-xs inline-flex gap-1 items-center"
-				><img src={link.image} class="w-[12px]" alt="logo" />{link.name}
+				><img width={12} height={12} src={link.image} class="w-[12px]" alt="logo" />{link.name}
 				<svg
 					class="group-hover:visible invisible"
 					fill="#000000"
