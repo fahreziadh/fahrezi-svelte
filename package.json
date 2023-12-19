@@ -38,6 +38,7 @@
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.16",
     "clsx": "^2.0.0",
+    "mode-watcher": "^0.1.2",
     "tailwind-merge": "^2.1.0"
   }
 }

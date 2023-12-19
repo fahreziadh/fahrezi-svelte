@@ -1,12 +1,13 @@
 <script>
 	import { page } from '$app/stores';
 	import { cn } from '$lib/utils';
+	import ToggleTheme from '$lib/components/ToggleTheme.svelte';
 
 	const links = [
 		{ name: 'home', href: '/' },
-		{ name: 'work', href: '/work' },
-		{ name: 'blog', href: '/blog' },
-		{ name: 'tools', href: '/tools' }
+		// { name: 'work', href: '/work' },
+		{ name: 'tools', href: '/tools' },
+		{ name: 'about', href: '/about' }
 	];
 </script>
 
@@ -18,4 +19,5 @@
 			>{link.name}</a
 		>
 	{/each}
+	<ToggleTheme />
 </div>
