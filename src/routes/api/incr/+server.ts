@@ -1,9 +1,13 @@
+import { UPSTASH_REDIS_REST_TOKEN, UPSTASH_REDIS_REST_URL } from '$env/static/private';
 import type { RequestHandler } from '../$types';
 
 import { Redis } from '@upstash/redis';
 
 export const POST: RequestHandler = async ({ request, getClientAddress }) => {
-	const redis = Redis.fromEnv();
+	const redis = new Redis({
+		token: UPSTASH_REDIS_REST_TOKEN,
+		url: UPSTASH_REDIS_REST_URL
+	});
 	const body = await request.json();
 	const slug = body.slug as string | undefined;
 	if (!slug) {
