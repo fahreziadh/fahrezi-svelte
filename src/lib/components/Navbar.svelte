@@ -11,7 +11,7 @@
 	];
 </script>
 
-<div class="flex flex-row items-center justify-center gap-6 h-[60px]">
+<div class="flex flex-row items-center container max-w-[800px] gap-6 h-[60px]">
 	{#each links as link}
 		<a
 			href={link.href}

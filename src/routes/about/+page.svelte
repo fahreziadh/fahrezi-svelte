@@ -1,6 +1,8 @@
 <script>
 	import { fade } from 'svelte/transition';
-
+	// @ts-expect-error
+	import Work from './work.svx';
+	import Projects from './projects.svelte';
 	const socialMediaLinks = [
 		{
 			name: 'twitter',
@@ -26,7 +28,8 @@
 	];
 </script>
 
-<div in:fade class="container max-w-[600px] flex flex-col items-center pt-[40px]">
+
+<div in:fade class="container max-w-[800px] flex flex-col pt-[40px]">
 	<enhanced:img src="$lib/assets/profile.png" class="w-[60px]" alt="logo" />
 	<h1 class="font-medium text-lg">Hello, I'm Fahrezi</h1>
 	<div class="inline-flex gap-2 mt-2 mb-6">
@@ -59,21 +62,27 @@
 			>
 		{/each}
 	</div>
-	<h2 class="text-center">
+	<h2 >
 		im a frontend dev and devoted husband, passionate about creating captivating web experiences.
 		Currently at Nuon, building Ujian.io and share every journey here.
 	</h2>
 
 	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">
-		<div class="border-b border-dashed grow"></div>
-		<h1 class="font-medium bg-secondary px-4 py-1">work</h1>
+		<div class="border-b border-dashed w-[20px]"></div>
+		<h1 class="font-medium bg-secondary px-4 py-1 text-sm">my projects</h1>
+		<div class="border-b grow border-dashed"></div>
+	</div>
+	<div>
+		<Projects />
+	</div>
+	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">
+		<div class="border-b border-dashed w-[20px]"></div>
+		<h1 class="font-medium bg-secondary px-4 py-1 text-sm">my work</h1>
 		<div class="border-b grow border-dashed"></div>
 	</div>
 
-	<div>
-		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae voluptates modi dolorum
-		unde, facilis placeat accusantium. Voluptatibus, dolor aliquid. Quo maxime illo totam qui
-		excepturi enim officiis dolor ducimus!
+	<div class="prose prose-zinc dark:prose-invert max-w-full w-full">
+		<Work />
 	</div>
 
 	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">

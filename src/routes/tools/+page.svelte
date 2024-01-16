@@ -55,19 +55,23 @@
 			description: 'Mouse',
 			link: ''
 		},
-		{}
+		{
+			name: "Logitech C920",
+			description: "Webcam",
+			link: ""
+		}
 	];
 </script>
 
-<div in:fade class="container max-w-[600px]">
-	<h1 class="font-medium text-xl mt-10 text-center">
+<div in:fade class="container max-w-[800px]">
+	<h1 class="font-medium text-xl mt-10">
 		<span class="underline">Tools</span> yang aku gunakan
 	</h1>
-	<h1 class="text-center">mulai dari hal development, design, maupun produktivitas</h1>
+	<h1>mulai dari hal development, design, maupun produktivitas</h1>
 
 	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">
-		<div class="border-b border-dashed grow"></div>
-		<h1 class="font-medium bg-secondary px-4 py-1">Software Development</h1>
+		<div class="border-b border-dashed w-[20px]"></div>
+		<h1 class="font-medium bg-secondary px-2 py-1 text-sm">Software Development</h1>
 		<div class="border-b grow border-dashed"></div>
 	</div>
 
@@ -101,8 +105,8 @@
 	</div>
 
 	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">
-		<div class="border-b border-dashed grow"></div>
-		<h1 class="font-medium bg-secondary px-4 py-1">Hardware</h1>
+		<div class="border-b border-dashed w-[20px] text-sm"></div>
+		<h1 class="font-medium bg-secondary px-2 py-1">Hardware</h1>
 		<div class="border-b grow border-dashed"></div>
 	</div>
 
