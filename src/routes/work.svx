@@ -1,0 +1,64 @@
+January 2022 - Present
+# Web Developer at <a href="https://nuon.id" target="_blank">Nuon</a>
+
+I joined <a href="https://nuon.id" target="_blank">Nuon</a> as a Web Developer in January 2022. I worked on a project named
+tiketapasaja.com which at that time had already been released using the PHP, HTML & JavaScript stack. My team and I revamped the tiketapasaja.com website
+to Nuxt.js and made several improvements to the previous tiketapasaja.com website.
+![image](/tiketapasaja.com.webp)
+
+<a href="https://tiketapasaja.com" target="_blank">tiketapasaja.com</a>
+
+### Stack used
+- Vue/Nuxtjs
+- Tailwindcss
+- Laravel (Backend)
+- Postgresql (Database)
+- Docker
+
+---
+
+March 2022 - January 2023
+# Web Developer at <a href="https://www.creativestation.id" target="_blank">Creativestation.id</a>
+
+I joined <a href="https://www.creativestation.id" target="_blank">Creativestation.id</a> as a Part-time Web Developer in March 2022. I worked on several websites such as
+landing-page, dashboard, and company profile website using Next.js, Tailwindcss, React-query, which have already been released and visited by about 50k+ users every month.
+
+![image](/creativestation.id.webp)
+
+<a href="https://creativestation.id" target="_blank">creativestation.id</a>
+
+### Stack used
+- Nextjs
+- Tailwindcss
+- React-query
+- Python (Backend)
+- MySQL (Database)
+- Vercel
+
+---
+
+August 2019 - January 2022
+# Android Developer at <a href="https://www.gameqoo.id" target="_blank">Gameqoo.id</a>
+
+Before becoming a web developer, I joined <a href="https://www.gameqoo.id" target="_blank">Gameqoo.id</a> as an Android Developer in August 2019.
+and worked on applications for Android devices, including STB, Android TV and Mobile, and the application has been released and downloaded by about 100k+ users in Indonesia.
+
+![image](/gameqoo.id.webp)
+
+<a href="https://gameqoo" target="_blank">Gameqoo.id</a>
+
+### Stack used
+- Kotlin
+- Java
+- Android Studio
+- Firebase
+- Google Cloud Platform
+- Gitlab
+
+---
+
+## 📫 How to reach me
+If you want to contact me, or just want to say hi, feel free to reach me on:
+- Email: [fahreziadh@gmail.com](mailto:fahreziadh@gmail.com)
+- LinkedIn: [@fahrezi](https://www.linkedin.com/in/fahrezi/)
+- Twitter: [@fahreziadhaa](https://twitter.com/fahreziadhaa)

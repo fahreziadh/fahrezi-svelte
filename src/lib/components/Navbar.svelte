@@ -5,9 +5,8 @@
 
 	const links = [
 		{ name: 'home', href: '/' },
-		// { name: 'work', href: '/work' },
+		{ name: 'blog', href: '/blog' },
 		{ name: 'tools', href: '/tools' },
-		{ name: 'about', href: '/about' }
 	];
 </script>
 
