@@ -28,7 +28,6 @@
 	];
 </script>
 
-
 <div in:fade class="container max-w-[800px] flex flex-col pt-[40px]">
 	<enhanced:img src="$lib/assets/profile.png" class="w-[60px]" alt="logo" />
 	<h1 class="font-medium text-lg">Hello, I'm Fahrezi</h1>
@@ -62,7 +61,7 @@
 			>
 		{/each}
 	</div>
-	<h2 >
+	<h2>
 		im a frontend dev and devoted husband, passionate about creating captivating web experiences.
 		Currently at Nuon, building Ujian.io and share every journey here.
 	</h2>
@@ -85,15 +84,9 @@
 		<Work />
 	</div>
 
-	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">
-		<div class="border-b border-dashed grow"></div>
-		<h1 class="font-medium bg-secondary px-4 py-1">blog</h1>
-		<div class="border-b grow border-dashed"></div>
-	</div>
-
-	<div>
-		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae voluptates modi dolorum
-		unde, facilis placeat accusantium. Voluptatibus, dolor aliquid. Quo maxime illo totam qui
-		excepturi enim officiis dolor ducimus!
+	<div class="border-t mt-10 py-10 text-center">
+		<p class="text-sm">
+			© 2024 Fahrezi Adha. All rights reserved
+		</p>
 	</div>
 </div>
