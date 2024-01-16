@@ -1,7 +1,7 @@
 import { UPSTASH_REDIS_REST_TOKEN, UPSTASH_REDIS_REST_URL } from '$env/static/private';
 import type { RequestHandler } from '../$types';
 
-import { Redis } from '@upstash/redis';
+import { Redis } from '@upstash/redis/cloudflare';
 
 export const POST: RequestHandler = async ({ request, getClientAddress }) => {
 	const redis = new Redis({
