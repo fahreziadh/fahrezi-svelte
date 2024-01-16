@@ -1,1 +1,6 @@
-lorem ipsum
+- Buat Point Materi
+- Buat Script Materi
+- Jelaskan dulu materi nya (Gunakan Slides & Figma)
+- Demokan Prakteknya (Jika Ada)
+
+![Screenshot from 2023-12-23 20-18-42.png](https://fahreziadha-2024.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ff460a781-a469-42d1-a4a7-f568cab64fc1%2Fb91bc3fe-0ccb-490d-9fc0-781156495786%2FScreenshot_from_2023-12-23_20-18-42.png?table=block&id=f38bfee0-b2dd-4acf-b104-69bbf891369d&spaceId=f460a781-a469-42d1-a4a7-f568cab64fc1&width=1740&userId=&cache=v2)
