@@ -16,10 +16,7 @@
 		description: 'Frontend Web Developer',
 		images: [
 			{
-				url: 'https://fahreziadha.com/evaly.io.webp',
-				width: 800,
-				height: 600,
-				alt: 'Og Image Alt'
+				url: 'https://fahreziadha.com/twitter-card.png',
 			},
 		],
 		siteName: 'Hello, im Fahrezi',
@@ -30,7 +27,7 @@
 		cardType: 'summary_large_image',
 		title: 'Hello, im Fahrezi - Frontend developer',
 		description: 'Founder of @evalyio',
-		image: 'https://fahreziadha.com/evaly.io.webp',
+		image: 'https://fahreziadha.com/twitter-card.png',
 		imageAlt: 'Twitter image alt'
 	}}
 />
