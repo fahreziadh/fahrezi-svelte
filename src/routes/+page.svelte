@@ -26,7 +26,9 @@
 			image: '../assets/youtube.png'
 		}
 	];
+
 </script>
+
 
 <div in:fade class="container max-w-[800px] flex flex-col pt-[40px]">
 	<enhanced:img src="$lib/assets/profile.png" class="w-[60px]" alt="logo" />
@@ -63,7 +65,7 @@
 	</div>
 	<h2>
 		im a frontend dev and devoted husband, passionate about creating captivating web experiences.
-		Currently at Nuon, building Ujian.io and share every journey here.
+		Currently at Nuon, building evaly.io and share every journey here.
 	</h2>
 
 	<div class="mt-10 mb-5 flex flex-row items-center w-full gap-4">

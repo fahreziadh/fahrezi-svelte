@@ -3,20 +3,42 @@
 	import '../app.css';
 	import '@fontsource-variable/inter';
 	import { ModeWatcher } from 'mode-watcher';
+	import { MetaTags } from 'svelte-meta-tags';
 </script>
 
-<svelte:head>
-	<title>Hello I'm Fahrezi Adha</title>
-	<meta
-		name="description"
-		content="Hello I'm Fahrezi Adha, im a frontend dev and devoted husband, passionate about creating captivating web experiences. Currently at Nuon, building Ujian.io and share every journey here."
-	/>
-</svelte:head>
+<MetaTags
+	titleTemplate="%s | Fahrezi Adha"
+	title="Hello, im Fahrezi"
+	description="im a frontend dev and devoted husband, passionate about creating captivating web experiences. Currently at Nuon, building evaly.io and share every journey here."
+	openGraph={{
+		url: 'https://www.fahreziadha.com',
+		title: 'Open Graph Title',
+		description: 'Open Graph Description',
+		images: [
+			{
+				url: 'https://fahreziadha.com/evaly.io.webp',
+				width: 800,
+				height: 600,
+				alt: 'Og Image Alt'
+			},
+		],
+		siteName: 'Hello, im Fahrezi',
+	}}
+	twitter={{
+		handle: '@fahreziadhaa',
+		site: 'https://www.fahreziadha.com',
+		cardType: 'summary_large_image',
+		title: 'Using More of Config',
+		description: 'Founder of @evalyio',
+		image: 'https://pbs.twimg.com/profile_images/1730905730210050048/EiiA5u2E_400x400.jpg',
+		imageAlt: 'Twitter image alt'
+	  }}
+/>
 
 <ModeWatcher />
 <Navbar />
 <div class="min-h-screen">
-	<slot/>
+	<slot />
 </div>
 <div class="border-t mt-10 py-10 text-center">
 	<p class="text-sm">© 2024 Fahrezi Adha. All rights reserved</p>
