@@ -28,11 +28,11 @@
 		handle: '@fahreziadhaa',
 		site: 'https://www.fahreziadha.com',
 		cardType: 'summary_large_image',
-		title: 'Using More of Config',
+		title: 'Hello, im Fahrezi',
 		description: 'Founder of @evalyio',
 		image: 'https://pbs.twimg.com/profile_images/1730905730210050048/EiiA5u2E_400x400.jpg',
 		imageAlt: 'Twitter image alt'
-	  }}
+	}}
 />
 
 <ModeWatcher />
