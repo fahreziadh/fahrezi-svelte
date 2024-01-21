@@ -12,8 +12,8 @@
 	description="im a frontend dev and devoted husband, passionate about creating captivating web experiences. Currently at Nuon, building evaly.io and share every journey here."
 	openGraph={{
 		url: 'https://www.fahreziadha.com',
-		title: 'Open Graph Title',
-		description: 'Open Graph Description',
+		title: 'Fahrezi Adha',
+		description: 'Frontend Web Developer',
 		images: [
 			{
 				url: 'https://fahreziadha.com/evaly.io.webp',
