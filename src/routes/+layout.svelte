@@ -26,9 +26,9 @@
 	}}
 	twitter={{
 		handle: '@fahreziadhaa',
-		site: 'https://www.fahreziadha.com',
+		site: '@fahreziadhaa',
 		cardType: 'summary_large_image',
-		title: 'Hello, im Fahrezi',
+		title: 'Hello, im Fahrezi - Frontend developer',
 		description: 'Founder of @evalyio',
 		image: 'https://fahreziadha.com/evaly.io.webp',
 		imageAlt: 'Twitter image alt'
