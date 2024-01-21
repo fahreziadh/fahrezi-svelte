@@ -30,7 +30,7 @@
 		cardType: 'summary_large_image',
 		title: 'Hello, im Fahrezi',
 		description: 'Founder of @evalyio',
-		image: 'https://pbs.twimg.com/profile_images/1730905730210050048/EiiA5u2E_400x400.jpg',
+		image: 'https://fahreziadha.com/evaly.io.webp',
 		imageAlt: 'Twitter image alt'
 	}}
 />
