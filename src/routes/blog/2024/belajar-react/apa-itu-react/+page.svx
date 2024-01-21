@@ -1,0 +1,45 @@
+### Goal
+
+1. Mengerti apa itu React.js dan konsep dasarnya.
+2. Mengetahui kegunaan React.js
+3. React.js untuk siapa?
+4. Kelas ini cocok untuk siapa?
+5. Kelebihan & Kekurangan React.js
+6. Peserta tahu akan belajar apa saja.
+
+### Prerequisite
+
+Ada beberapa cara untuk membuat website di masa ini, mulai dari yang simple dari HTML & CSS saja, berlanjut ke tampilan yang interaktif menggunakan javascript. 
+
+kita bisa menggunakan html, css & javascript menjadi sebuah website utuh mulai dari 0 atau from scratch atau bisa dibilang vanilla javascript, dan cara ini sangat amat disaran kan untuk teman2 pemula yang baru belajar di web development karena kita akan paham bagaimana basic dari pemrograman web itu sendiri.
+
+nah, jika kita sudah familiar dengan javascript dasar serta html & css, maka sudah saat nya menggunakan library & framework, ada beberapa yang populer saat ini :
+
+- React.js
+- Svelte
+- Vue.js
+
+jika kamu mau belajar web development maka bisa pilih salah satu dan percaya lah, switch dari 1 library ke library lain tidak lah sulit, yang perlu di perhatikan adalah pemahaman tentang basic javascript nya dan sedikit rasa penasaran / curiosity.
+
+### React
+
+apa itu react? "A javascript library for building interface” menurut web / docs resmi react.dev.
+
+atau dalam bahasa indonesia, sebuah javascript library untuk membuat tampilan dalam hal ini bisa website atau aplikasi mobile bahkan desktop.
+
+Kita memilih react untuk awal pembelajaran di kelas ini, karena beberapa alasan berikut :
+
+- Mudah dipelajari & dipahami
+- Support dari Community yang cukup besar, bahkan di backup oleh perusahaan besar seperti Meta, Vercel, dll. (https://github.com/facebook/react)
+- Demand Hiring yang cukup tinggi.
+- Support library 3rd party sangat banyak.
+- Sekali belajar bisa membuat web, aplikasi mobile bahkan desktop.
+- termasuk yang populer saat ini.
+
+![**Most Popular Web Frameworks 2023 (Stackoverflow)**](/blog/2024/belajar-react/apa-itu-react/rank-stackoverflow.webp)
+
+**Most Popular Web Frameworks 2023 (Stackoverflow)**
+
+adapun react sendiri bisa dipelajari di banyak sumber, dan favorit saya adalah “sekolah koding” yang sekarang sko.dev.
+
+nah kelas react ini bisa dibilang pembaruan dari yang ada di sekolah koding, yang sebelumnya dibawakan oleh mas hilman (pendiri dari sekolah koding).

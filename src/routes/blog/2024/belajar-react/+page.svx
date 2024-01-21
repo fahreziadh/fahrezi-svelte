@@ -1,0 +1,53 @@
+[Apa itu React.js](/blog/2024/belajar-react/apa-itu-react)
+
+## 🎨 User Interface.
+
+[1. Setup Project](/blog/2024/belajar-react/setup-project)
+
+[2. Komponen]()
+
+[3. Memahami JSX]()
+
+[4. Apa itu Props]()
+
+[5. Conditional Rendering]()
+
+[6. Menampilkan list]()
+
+<br />
+
+## 🛵 Interactivity
+
+[7. Event Handling]()
+
+[8. useState() dan React Hook]()
+
+[9. Proses Rendering di React.js]()
+
+[10. Update State dalam bentuk Object]()
+
+[11. Update State dalam bentuk Array]()
+
+<br />
+
+## 🛞 Mengolah State
+
+[12. Mengenal Declarative UI]()
+
+[13. Cara memilih Struktur State]()
+
+[14. Berbagi state dengan komponen lain]()
+
+[15. Cara reset state]()
+
+[16. useReducer()]()
+
+[17. useContext()]()
+
+<br />
+
+## 🔮 Tips
+
+[ Menjaga Kemurnian Komponen]()
+
+[Berpikir ala React.js Developer]()

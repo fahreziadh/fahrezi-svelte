@@ -15,7 +15,12 @@
 
 <ModeWatcher />
 <Navbar />
-<slot />
+<div class="min-h-screen">
+	<slot/>
+</div>
+<div class="border-t mt-10 py-10 text-center">
+	<p class="text-sm">© 2024 Fahrezi Adha. All rights reserved</p>
+</div>
 
 <style>
 	:global(body) {

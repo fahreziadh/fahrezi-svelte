@@ -5,7 +5,10 @@
 </script>
 
 <div in:fade class="container max-w-[800px] flex flex-col gap-4">
-	<h1 class="mt-10 mb-5">my blogs:</h1>
+	<h1 class="font-medium text-xl mt-5 mb-5">
+        my blog
+    </h1>
+	
 	{#each blogs as blog}
 		<a href={`${blog.slug}`} class="hover:opacity-70">
 			<h1 class="font-medium text-lg">{blog.title}</h1>

@@ -3,6 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import { browser } from '$app/environment';
 	import dayjs from 'dayjs';
+	import { blogs } from '../blogs';
 
 	/** @type {import('./$types').LayoutData} */
 	export let data;
@@ -14,20 +15,36 @@
 	}
 
 	const views = data.views;
-	const title = data.title;
-	const createdAt = data.createdAt;
+
+	$: slug = $page.route.id;
+
+	let title = 'Blog not found';
+	let createdAt = new Date().toISOString();
+	let subtitle = '';
+	let subtitleLink = '';
+
+	$: {
+		slug = $page.route.id;
+		title = blogs.find((blog) => blog.slug === slug)?.title ?? title;
+		createdAt = blogs.find((blog) => blog.slug === slug)?.createdAt ?? createdAt;
+		subtitle = blogs.find((blog) => blog.slug === slug)?.subtitle ?? subtitle;
+		subtitleLink = blogs.find((blog) => blog.slug === slug)?.subtitleLink ?? subtitleLink;
+	}
 </script>
 
-<div in:fade class="container max-w-[800px] mt-10">
-	<div class="w-full flex flex-col items-center justify-center py-10">
-		<a href="/blog" class=" hover:underline mb-4">← Back</a>
-		<h1 class="text-4xl font-bold text-center">{title}</h1>
-		<div class="flex items-center gap-4 mt-4 opacity-60 font-medium">
-			<h3 >• {dayjs(createdAt).format('DD, MMM YYYY')}</h3>
-			<h3 >• {views} views</h3>
+<div in:fade class="container max-w-[800px] py-5">
+	<a href="/blog" class=" hover:underline">← Back</a>
+	<div class="w-full flex flex-col mt-10">
+		<h1 class="text-4xl font-bold">{title}</h1>
+		{#if subtitle}<a href={subtitleLink} class="mt-2 hover:text-blue-500">{subtitle}</a>{/if}
+		<div class="flex items-center gap-4 mt-4 opacity-60 text-sm">
+			<h3>• {dayjs(createdAt).format('DD, MMM YYYY')}</h3>
+			<h3>• {views} views</h3>
 		</div>
 	</div>
-	<div class=" prose prose-lg w-full text-pretty prose-a:no-underline prose-zinc dark:prose-invert">
+	<div
+		class=" prose prose-lg w-full text-pretty prose-a:no-underline prose-zinc dark:prose-invert mt-14"
+	>
 		<slot />
 	</div>
 </div>
