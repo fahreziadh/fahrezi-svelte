@@ -1,53 +1,53 @@
-[Apa itu React.js](/blog/2024/belajar-react/apa-itu-react)
+- [[Intro] Apa itu React.js](/blog/2024/belajar-react/apa-itu-react)
 
-## 🎨 User Interface.
+### User Interface.
 
-[1. Setup Project](/blog/2024/belajar-react/setup-project)
+- [Setup Project](/blog/2024/belajar-react/setup-project)
 
-[2. Komponen]()
+- [Komponen]()
 
-[3. Memahami JSX]()
+- [Memahami JSX]()
 
-[4. Apa itu Props]()
+- [Apa itu Props]()
 
-[5. Conditional Rendering]()
+- [Conditional Rendering]()
 
-[6. Menampilkan list]()
-
-<br />
-
-## 🛵 Interactivity
-
-[7. Event Handling]()
-
-[8. useState() dan React Hook]()
-
-[9. Proses Rendering di React.js]()
-
-[10. Update State dalam bentuk Object]()
-
-[11. Update State dalam bentuk Array]()
+- [Menampilkan list]()
 
 <br />
 
-## 🛞 Mengolah State
+### Interactivity
 
-[12. Mengenal Declarative UI]()
+- [Event Handling]()
 
-[13. Cara memilih Struktur State]()
+- [useState() dan React Hook]()
 
-[14. Berbagi state dengan komponen lain]()
+- [Proses Rendering di React.js]()
 
-[15. Cara reset state]()
+- [Update State dalam bentuk Object]()
 
-[16. useReducer()]()
-
-[17. useContext()]()
+- [Update State dalam bentuk Array]()
 
 <br />
 
-## 🔮 Tips
+### Mengolah State
 
-[ Menjaga Kemurnian Komponen]()
+- [Mengenal Declarative UI]()
 
-[Berpikir ala React.js Developer]()
+- [Cara memilih Struktur State]()
+
+- [Berbagi state dengan komponen lain]()
+
+- [Cara reset state]()
+
+- [useReducer()]()
+
+- [useContext()]()
+
+<br />
+
+### Tips
+
+- [Menjaga Kemurnian Komponen]()
+
+- [Berpikir ala React.js Developer]()

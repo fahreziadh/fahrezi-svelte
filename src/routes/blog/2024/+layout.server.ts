@@ -11,8 +11,7 @@ export const load = (async (req) => {
 
 	const views = (await redis.get<number>(['pageviews', 'projects', slug].join(':'))) ?? 0;
 
-	
 	return {
-		views,
+		views
 	};
 }) satisfies LayoutServerLoad;

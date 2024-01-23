@@ -38,12 +38,12 @@ Selain itu kita bisa membuka project tadi menggunakan vscode dengan `code .`
 
 Setelah selesai kita bisa menjalankan project kita dengan ketik `npm run dev`
 
-![Untitled](/blog/2024/belajar-react/setup-project/initial-web.webp)
+![Untitled](/blog/2024/belajar-react/setup-project-react-js/initial-web.webp)
 
 Jika sudah kita membuka nya melalui `http://localhost:**5173**`
 
 Berikut kira-kira tampak struktur project jika sudah berhasil di setup.
 
-![Untitled](/blog/2024/belajar-react/setup-project/struktur-project.webp)
+![Untitled](/blog/2024/belajar-react/setup-project-react-js/struktur-project.webp)
 
 Jika sudah kita bisa memulai belajar react nya 😎

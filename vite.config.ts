@@ -6,5 +6,8 @@ export default defineConfig({
 	plugins: [
 		enhancedImages(),
 		sveltekit(),
-	]
+	],
+	ssr:{
+		noExternal: ["svelte-hero-icons"],
+	}
 });

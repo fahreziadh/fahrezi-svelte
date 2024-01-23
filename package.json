@@ -49,6 +49,7 @@
     "remark-toc": "^9.0.0",
     "remark-unwrap-images": "^4.0.0",
     "shiki": "^0.14.7",
+    "svelte-hero-icons": "^5.0.0",
     "tailwind-merge": "^2.1.0"
   }
 }
