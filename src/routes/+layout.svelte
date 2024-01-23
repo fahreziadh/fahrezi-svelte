@@ -25,8 +25,8 @@
 		handle: '@fahreziadhaa',
 		site: '@fahreziadhaa',
 		cardType: 'summary_large_image',
-		title: 'Hello, im Fahrezi - Frontend developer',
-		description: 'Founder of @evalyio',
+		title: 'Hello, im Fahrezi',
+		description: 'Frontend developer',
 		image: 'https://fahreziadha.com/twitter-card.png',
 		imageAlt: 'Twitter image alt'
 	}}
