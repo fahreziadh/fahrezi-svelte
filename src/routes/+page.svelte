@@ -31,7 +31,7 @@
 
 
 <div in:fade class="container max-w-[800px] flex flex-col pt-[40px]">
-	<enhanced:img src="$lib/assets/profile.png" class="w-[60px]" alt="logo" />
+	<enhanced:img src="$lib/assets/fahrezi.webp" class="w-[60px] rounded-full mb-4" alt="logo" />
 	<h1 class="font-medium text-lg">Hello, I'm Fahrezi</h1>
 	<div class="inline-flex gap-2 mt-2 mb-6">
 		{#each socialMediaLinks as link}
