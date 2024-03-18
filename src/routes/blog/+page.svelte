@@ -9,7 +9,7 @@
 	import { Eye, Icon } from 'svelte-hero-icons';
 	import Img from '$lib/components/custom/img.svelte';
 
-	const views = data.slugsAndViews;
+	const views = data.slugs;
 </script>
 
 <div in:fade class="container max-w-[800px] flex flex-col gap-4">
@@ -26,9 +26,6 @@
 				<div>
 					<h1 class="font-medium text-lg">{blog.title}</h1>
 					<div class="flex items-center gap-4">
-						<h2 class="text-sm opacity-60 flex items-center gap-1">
-							{views.find((e) => e.slug === blog.slug)?.views ?? 0} views
-						</h2>
 						<!-- <h2 class="text-sm opacity-60">{dayjs(blog.createdAt).fromNow(true)}</h2> -->
 					</div>
 				</div>
